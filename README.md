@@ -5,7 +5,7 @@
 
 The project addresses limitations in conventional music recommendation systems by integrating user emotions and hand gestures to enhance the auditory experience. Current research typically focuses on either hand gesture-based controllers or emotion-based players, but not both simultaneously.
 
-![Alt text]([https://miro.medium.com/v2/resize:fit:1400/1*bUZZ0yjMdpm0qUGj3Zb4yw.png](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*fmPvIJPQjCz7i-77.jpg))
+![Alt text](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*fmPvIJPQjCz7i-77.jpg)
 
 ## Methodology
 
