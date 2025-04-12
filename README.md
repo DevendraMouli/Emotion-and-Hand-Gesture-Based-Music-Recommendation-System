@@ -17,14 +17,14 @@ The system employs two main components:
 - Recognizes 8 distinct gestures including Okay, Thumbs Up, Thumbs Down, Stop, Rock, Call Me, Live Long, and Fist
 - Hand gesture recognition achieved 95% accuracy
 
-![Hand Gestures](https://www.researchgate.net/publication/349867376/figure/fig4/AS:998399808385032@1615223598536/Examples-of-hand-gesture-used-in-recognition.png)
+![Alt text](https://miro.medium.com/v2/resize:fit:600/format:webp/1*e_7bN4nfREd0KGai-eQzGQ.gif)
 
 ### 2. Emotion Detection
 - Utilizes Facial Expression Recognizer (FER) algorithm on the FER2013 dataset
 - Identifies seven emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral
 - Emotion recognition achieved 82% accuracy
 
-![Emotion Detection](https://miro.medium.com/v2/resize:fit:1400/1*YpZEgcKuTUdYQMz0HZpAIA.png)
+![Alt text](https://miro.medium.com/v2/resize:fit:786/format:webp/1*r7aDWOZEUvimMH9KDF6Iyg.png)
 
 ### Implementation Process
 1. Initialize MediaPipe framework
@@ -47,7 +47,6 @@ The system employs two main components:
 - Successfully plays music corresponding to detected emotions and gestures
 - Outperforms existing solutions in terms of performance and accuracy
 
-![System Performance](https://www.researchgate.net/publication/343089434/figure/fig3/AS:915744445222912@1595270598587/Confusion-matrix-of-emotions-classification-of-the-proposed-method.jpg)
 
 ## Future Scope
 
