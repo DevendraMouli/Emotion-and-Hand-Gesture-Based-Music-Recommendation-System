@@ -1,11 +1,12 @@
 # Emotion and Hand Gesture-Based Music Recommendation System 
 
-
 ## Introduction 
 
 The project addresses limitations in conventional music recommendation systems by integrating user emotions and hand gestures to enhance the auditory experience. Current research typically focuses on either hand gesture-based controllers or emotion-based players, but not both simultaneously.
 
-![System Design](/api/placeholder/800/400)
+<a href="https://miro.medium.com/v2/resize:fit:1400/1*bUZZ0yjMdpm0qUGj3Zb4yw.png" target="_blank">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*bUZZ0yjMdpm0qUGj3Zb4yw.png" alt="System Design">
+</a>
 
 ## Methodology
 
@@ -17,14 +18,18 @@ The system employs two main components:
 - Recognizes 8 distinct gestures including Okay, Thumbs Up, Thumbs Down, Stop, Rock, Call Me, Live Long, and Fist
 - Hand gesture recognition achieved 95% accuracy
 
-![Hand Gestures](/api/placeholder/600/300)
+<a href="https://www.researchgate.net/publication/349867376/figure/fig4/AS:998399808385032@1615223598536/Examples-of-hand-gesture-used-in-recognition.png" target="_blank">
+  <img src="https://www.researchgate.net/publication/349867376/figure/fig4/AS:998399808385032@1615223598536/Examples-of-hand-gesture-used-in-recognition.png" alt="Hand Gestures">
+</a>
 
 ### 2. Emotion Detection
 - Utilizes Facial Expression Recognizer (FER) algorithm on the FER2013 dataset
 - Identifies seven emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral
 - Emotion recognition achieved 82% accuracy
 
-![Emotion Detection](/api/placeholder/600/300)
+<a href="https://miro.medium.com/v2/resize:fit:1400/1*YpZEgcKuTUdYQMz0HZpAIA.png" target="_blank">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*YpZEgcKuTUdYQMz0HZpAIA.png" alt="Emotion Detection">
+</a>
 
 ### Implementation Process
 1. Initialize MediaPipe framework
@@ -47,7 +52,9 @@ The system employs two main components:
 - Successfully plays music corresponding to detected emotions and gestures
 - Outperforms existing solutions in terms of performance and accuracy
 
-![System Performance](/api/placeholder/700/350)
+<a href="https://www.researchgate.net/publication/343089434/figure/fig3/AS:915744445222912@1595270598587/Confusion-matrix-of-emotions-classification-of-the-proposed-method.jpg" target="_blank">
+  <img src="https://www.researchgate.net/publication/343089434/figure/fig3/AS:915744445222912@1595270598587/Confusion-matrix-of-emotions-classification-of-the-proposed-method.jpg" alt="System Performance">
+</a>
 
 ## Future Scope
 
